@@ -1,12 +1,21 @@
+
+UPDATE CUSTOMER
 {"id":"1",
  "firstName":"habib",
  "lastName":"surname",
  "email":"habib@mail.ru"
 }
 
-{"firstName":"Sanya",
+NEW CUSTOMER
+{"firstName":"Sania",
  "lastName":"Skoriy",
  "email":"Sanya@mail.ru"
 }
 
-
+REGISTER
+{
+"userName":"mark",
+"lastName":"Kost",
+"password":"test123",
+"email":"mark@mail.ru"
+}

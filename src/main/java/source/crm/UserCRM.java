@@ -21,6 +21,7 @@ public class UserCRM {
     @Email
     @NotNull(message = "is required")
     @Size(min = 1,message = "is required")
+    @Email(message = "provide valid email")
     private String email;
 
 

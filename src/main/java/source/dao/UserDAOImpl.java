@@ -34,7 +34,22 @@ public class UserDAOImpl implements UserDAO{
         } catch (Exception ex){
             user = null;
         }
+        return user;
+    }
 
+    @Override
+    public User findByEmail(String email) {
+        Session session = sessionFactory.getCurrentSession();
+
+        User user;
+        Query<User> userQuery = session.createQuery("from User where email = :theEmail",User.class);
+        userQuery.setParameter("theEmail",email);
+
+        try{
+            user = userQuery.getSingleResult();
+        } catch (Exception ex){
+            user = null;
+        }
         return user;
     }
 }

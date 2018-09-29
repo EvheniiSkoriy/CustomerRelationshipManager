@@ -7,7 +7,7 @@ UPDATE CUSTOMER
 }
 
 NEW CUSTOMER
-{"firstName":"Sanya",
+{"firstName":"Sania",
  "lastName":"Skoriy",
  "email":"Sanya@mail.ru"
 }
