@@ -19,6 +19,7 @@
 mvnw.*
 mvnw
 *.out
+/out/
 
 ### NetBeans ###
 /nbproject/private/
